@@ -1,0 +1,301 @@
+
+.skincare-container {
+    padding: 1.5rem;
+    background-color: #e6f0ff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 1rem;
+  }
+  
+  .skincare-container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1e40af;
+    margin-bottom: 1rem;
+  }
+  
+  .skincare-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #1e40af;
+    margin-bottom: 0.25rem;
+  }
+  
+  .form-group select,
+  .form-group input[type="text"],
+  .form-group input[type="file"] {
+    padding: 0.5rem;
+    border: 1px solid #93c5fd;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    color: #1e40af;
+  }
+  
+  .form-group select:focus,
+  .form-group input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  }
+  
+  .preview-image {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+  }
+  
+  .skincare-form button {
+    padding: 0.5rem;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .skincare-form button:hover {
+    background-color: #1e40af;
+  }
+  
+  .skincare-form button:disabled {
+    background-color: #93c5fd;
+    cursor: not-allowed;
+  }
+  
+  .result-section {
+    margin-top: 1rem;
+  }
+  
+  .result-section h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #1e40af;
+  }
+  
+  .result-section p {
+    color: #2563eb;
+    font-size: 0.875rem;
+  }
+  
+  .Disease h4,
+  .products h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1e40af;
+    margin-top: 0.5rem;
+  }
+  
+  .Disease p {
+    color: #2563eb;
+    font-size: 0.875rem;
+  }
+  
+  .Disease button {
+    margin-top: 0.5rem;
+    padding: 0.25rem 1rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .Disease button:hover {
+    background-color: #1e40af;
+  }
+  
+  .copy-success {
+    margin-left: 0.5rem;
+    color: #16a34a;
+    font-size: 0.875rem;
+  }
+  
+  .products ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    color: #2563eb;
+    font-size: 0.875rem;
+  }
+  ```
+  
+  #### `disease.css`
+  <xaiArtifact artifact_id="8a1a644c-dab1-4507-a1f9-5ffa8bf844e5" artifact_version_id="abc31c42-b1a8-4af7-8c19-e5e16195c1bf" title="disease.css" contentType="text/css">
+  ```css
+  .disease-container {
+    padding: 1.5rem;
+    background-color: #e6fff2;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 1rem;
+  }
+  
+  .disease-container h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #15803d;
+    margin-bottom: 1rem;
+  }
+  
+  .disease-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #15803d;
+    margin-bottom: 0.25rem;
+  }
+  
+  .form-group input[type="file"] {
+    padding: 0.5rem;
+    border: 1px solid #86efac;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    color: #15803d;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #22c55e;
+    box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
+  }
+  
+  .preview-image {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+  }
+  
+  .disease-form button {
+    padding: 0.5rem;
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .disease-form button:hover {
+    background-color: #15803d;
+  }
+  
+  .disease-form button:disabled {
+    background-color: #86efac;
+    cursor: not-allowed;
+  }
+  
+  .result-section {
+    margin-top: 1rem;
+  }
+  
+  .result-section h3 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #15803d;
+  }
+  
+  .result-section p {
+    color: #16a34a;
+    font-size: 0.875rem;
+  }
+  
+  .Disease h4,
+  .products h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #15803d;
+    margin-top: 0.5rem;
+  }
+  
+  .Disease p {
+    color: #16a34a;
+    font-size: 0.875rem;
+  }
+  
+  .Disease button {
+    margin-top: 0.5rem;
+    padding: 0.25rem 1rem;
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .Disease button:hover {
+    background-color: #15803d;
+  }
+  
+  .copy-success {
+    margin-left: 0.5rem;
+    color: #16a34a;
+    font-size: 0.875rem;
+  }
+  
+  .products ul {
+    list-style: disc;
+    padding-left: 1.25rem;
+    color: #16a34a;
+    font-size: 0.875rem;
+  }
+  ```
+  
+  ### Notes on Integration
+  1. **CSS Imports**: Ensure `skincare.css` and `disease.css` are in the same directory as `Dashboard.jsx` or adjust the import paths (e.g., `import './styles/skincare.css'`).
+  2. **Dashboard Styling**: The `dashboard-container`, `analysis-section`, and `extra-sections` classes are not styled in the provided CSS. You may need to add a `dashboard.css` file for these, e.g.:
+     ```css
+     .dashboard-container {
+       padding: 2rem;
+       background-color: #f3f4f6;
+       min-height: 100vh;
+     }
+     .analysis-section {
+       display: flex;
+       flex-wrap: wrap;
+       gap: 1rem;
+       justify-content: center;
+     }
+     .extra-sections {
+       margin-top: 2rem;
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+       gap: 1rem;
+     }
+     .weather-tip,
+     .routine-checklist,
+     .analysis-history,
+     .profile-actions {
+       padding: 1rem;
+       background-color: white;
+       border-radius: 0.5rem;
+       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     }

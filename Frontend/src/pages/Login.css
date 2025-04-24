@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #fff5f8, #ffe4e8);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background: #ff4f7b;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #ff2e5f;
+  }
+  
+  .toggle-text {
+    color: #ff4f7b;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
