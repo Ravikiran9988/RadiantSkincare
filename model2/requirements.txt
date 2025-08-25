@@ -6,3 +6,4 @@ numpy
 gunicorn
 flask_socketio
 flask_cors
+pandas
